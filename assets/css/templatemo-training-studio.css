@@ -149,6 +149,7 @@ body {
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 a {
@@ -904,7 +905,7 @@ schedule
 
 #schedule {
   padding: 0px 0px 140px 0px;
-  background-image: url(../images/schedule-bg.jpg);
+  background-image: url(../images/pic1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -8,12 +8,77 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.0/examples/carousel/"
+    />
 
+    <!-- Bootstrap core CSS -->
+    <link
+      href="/docs/5.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      href="/docs/5.0/assets/img/favicons/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link
+      rel="icon"
+      href="/docs/5.0/assets/img/favicons/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="/docs/5.0/assets/img/favicons/favicon-16x16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg"
+      color="#7952b3"
+    />
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico" />
+    <meta name="theme-color" content="#7952b3" />
     <title>Real OGs</title>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
     <!--
 
 TemplateMo 548 Training Studio
@@ -188,23 +253,6 @@ https://templatemo.com/tm-548-training-studio
     </section>
     <!-- ***** Features Item End ***** -->
 
-    <!-- ***** Call to Action Start ***** -->
-    <!-- <section class="section" id="call-to-action">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="cta-content">
-                        <h2>Don’t <em>think</em>, begin <em>today</em>!</h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris a nisi luctus imperdiet.</p>
-                        <div class="main-button scroll-to-section">
-                            <a href="#our-classes">Become a member</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- ***** Call to Action End ***** -->
 
     <!-- ***** Our Classes Start ***** -->
     <!-- <section class="section" id="our-classes">
@@ -269,72 +317,10 @@ https://templatemo.com/tm-548-training-studio
     </section> -->
     <!-- ***** Our Classes End ***** -->
 
-    <!-- <section class="section" id="schedule">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading dark-bg">
-                        <h2>Classes <em>Schedule</em></h2>
-                        <img src="assets/images/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="filters">
-                        <ul class="schedule-filter">
-                            <li class="active" data-tsfilter="monday">Monday</li>
-                            <li data-tsfilter="tuesday">Tuesday</li>
-                            <li data-tsfilter="wednesday">Wednesday</li>
-                            <li data-tsfilter="thursday">Thursday</li>
-                            <li data-tsfilter="friday">Friday</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="schedule-table filtering">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td class="day-time">Fitness Class</td>
-                                    <td class="monday ts-item show" data-tsmeta="monday">10:00AM - 11:30AM</td>
-                                    <td class="tuesday ts-item" data-tsmeta="tuesday">2:00PM - 3:30PM</td>
-                                    <td>William G. Stewart</td>
-                                </tr>
-                                <tr>
-                                    <td class="day-time">Muscle Training</td>
-                                    <td class="friday ts-item" data-tsmeta="friday">10:00AM - 11:30AM</td>
-                                    <td class="thursday friday ts-item" data-tsmeta="thursday" data-tsmeta="friday">2:00PM - 3:30PM</td>
-                                    <td>Paul D. Newman</td>
-                                </tr>
-                                <tr>
-                                    <td class="day-time">Body Building</td>
-                                    <td class="tuesday ts-item" data-tsmeta="tuesday">10:00AM - 11:30AM</td>
-                                    <td class="monday ts-item show" data-tsmeta="monday">2:00PM - 3:30PM</td>
-                                    <td>Boyd C. Harris</td>
-                                </tr>
-                                <tr>
-                                    <td class="day-time">Yoga Training Class</td>
-                                    <td class="wednesday ts-item" data-tsmeta="wednesday">10:00AM - 11:30AM</td>
-                                    <td class="friday ts-item" data-tsmeta="friday">2:00PM - 3:30PM</td>
-                                    <td>Hector T. Daigle</td>
-                                </tr>
-                                <tr>
-                                    <td class="day-time">Advanced Training</td>
-                                    <td class="thursday ts-item" data-tsmeta="thursday">10:00AM - 11:30AM</td>
-                                    <td class="wednesday ts-item" data-tsmeta="wednesday">2:00PM - 3:30PM</td>
-                                    <td>Bret D. Bowers</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+
 
     <!-- ***** Team banners Starts ***** -->
+    <!-- slider starts -->
     <section class="section" id="banners">
       <div class="container">
         <div class="row">
@@ -346,38 +332,66 @@ https://templatemo.com/tm-548-training-studio
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-20">
-            <div class="trainer-item">
-              <div class="image-thumb">
-                <img src="assets/images/team4.jpeg" alt="" />
-              </div>
+
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img
+                src="assets/images/team4.jpeg"
+                class="d-block w-100"
+                alt="..."
+              />
             </div>
-          </div>
-          <div class="col-lg-20">
-            <div class="trainer-item">
-              <div class="image-thumb">
-                <img src="assets/images/team3.jpeg" alt="" />
-              </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img
+                src="assets/images/team3.jpeg"
+                class="d-block w-100"
+                alt="..."
+              />
             </div>
-          </div>
-          <div class="col-lg-20">
-            <div class="trainer-item">
-              <div class="image-thumb">
-                <img src="assets/images/team2.jpeg" alt="" />
-              </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img
+                src="assets/images/team2.jpeg"
+                class="d-block w-100"
+                alt="..."
+              />
             </div>
-          </div>
-          <div class="col-lg-20">
-            <div class="trainer-item">
-              <div class="image-thumb">
-                <img src="assets/images/team1.jpeg" alt="" />
-              </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img
+                src="assets/images/team1.jpeg"
+                class="d-block w-100"
+                alt="..."
+              />
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- <div class="slider-fraame">
+      <div class="slider-images">
+        <div class="img-container">
+          <img src="assets/images/team4.jpeg" alt="" />
+        </div>
+        <div class="img-container">
+          <img src="assets/images/team3.jpeg" alt="" />
+        </div>
+        <div class="img-container">
+          <img src="assets/images/team2.jpeg" alt="" />
+        </div>
+        <div class="img-container">
+          <img src="assets/images/team1.jpeg" alt="" />
+        </div>
+      </div>
+    </div> -->
+
+    <!-- slider ends -->
+
+   
     <!-- ***** Team banners Ends ***** -->
 
     <!-- ***** Testimonials Starts ***** -->
@@ -396,7 +410,7 @@ https://templatemo.com/tm-548-training-studio
           <div class="col-lg-4">
             <div class="trainer-item">
               <div class="image-thumb">
-                <img src="assets/images/banner1.jpg" alt="" />
+                <img src="assets/images/vimma.jpeg" alt="" />
               </div>
               <div class="down-content">
                 <span>Strength Trainer</span>
@@ -428,7 +442,7 @@ https://templatemo.com/tm-548-training-studio
           <div class="col-lg-4">
             <div class="trainer-item">
               <div class="image-thumb">
-                <img src="assets/images/vimma.jpeg" alt="" />
+                <img src="assets/images/troll.jpeg" alt="" />
               </div>
               <div class="down-content">
                 <span>motto here</span>
@@ -524,6 +538,123 @@ https://templatemo.com/tm-548-training-studio
       </div>
     </section>
     <!-- ***** Testimonials Ends ***** -->
+    
+    <!-- ***** Call to Action Start ***** -->
+    <!-- <section class="section" id="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <div class="cta-content">
+              <h2>Don’t <em>think</em>, begin <em>today</em>!</h2>
+              <p>
+                Ut consectetur, metus sit amet aliquet placerat, enim est
+                ultricies ligula, sit amet dapibus odio augue eget libero. Morbi
+                tempus mauris a nisi luctus imperdiet.
+              </p>
+              <div class="main-button scroll-to-section">
+                <a href="#our-classes">Become a member</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- ***** Call to Action End ***** -->
+    <!-- ***** bracket start ***** -->
+    <section class="section" id="banners">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <div class="section-heading">
+              <h2>Tournament <em>Bracket</em></h2>
+              <img src="assets/images/line-dec.png" alt="" />
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-20">
+            <div class="trainer-item">
+              <div class="image-thumb">
+                <img src="assets/images/bracket.png" alt="" />
+              </div>
+            </div>
+          </div>
+         
+    </section>
+    <!-- ***** bracket End ***** -->
+    <section class="section" id="schedule">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6 offset-lg-3">
+                  <div class="section-heading dark-bg">
+                      <h2>Match <em>History</em></h2>
+                      <img src="assets/images/line-dec.png" alt="">
+                      <!-- <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p> -->
+                      <!-- <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p> -->
+                  </div>
+              </div>
+          </div>
+          <!-- <div class="row">
+              <div class="col-lg-12">
+                  <div class="filters">
+                      <ul class="schedule-filter">
+                          <li class="active" data-tsfilter="monday">Monday</li>
+                          <li data-tsfilter="tuesday">Tuesday</li>
+                          <li data-tsfilter="wednesday">Wednesday</li>
+                          <li data-tsfilter="thursday">Thursday</li>
+                          <li data-tsfilter="friday">Friday</li>
+                      </ul>
+                  </div>
+              </div> -->
+              <div>
+                  <div >
+                      <table>
+                       
+                        <tr>
+                          <td>Match Number</td>
+                          <td>Teams</td>
+                          <td>Winner</td>
+                          <td>Loser</td>
+                          <td>Match MVP</td>
+                        </tr>
+                        <tr>
+                          <td>#1</td>
+                          <td>Tenz Effect<br>MEWANE GOC</td>
+                          <td>Tenz Effect</td>
+                          <td>MEWANE GOC</td>
+                          <td>Vimma</td>
+                        </tr><tr>
+                          <td>#2</td>
+                          <td>UltrA NoobZ<br>TEAM Trollers</td>
+                          <td>NA</td>
+                          <td>NA</td>
+                          <td>NA</td>
+                        </tr>
+                        <tr>
+                          <td>#3</td>
+                          <td>MEWANE GOC<br>#2 Losers</td>
+                          <td>NA</td>
+                          <td>NA</td>
+                          <td>NA</td>
+                        </tr>
+                        <tr>
+                          <td>#4</td>
+                          <td>Tenz Effect<br>#2 Winners</td>
+                          <td>NA</td>
+                          <td>NA</td>
+                          <td>NA</td>
+                        </tr>
+                         
+                            
+                         
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 
     <!-- ***** Contact Us Area Starts ***** -->
     <section class="section" id="contact-us">
